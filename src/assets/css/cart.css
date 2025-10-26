@@ -1,0 +1,122 @@
+/* Custom CSS for Shopping Cart */
+.shopping-cart .content{
+	border-top: 2px solid #03f907;
+	border-bottom: 2px solid #03f907;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: white;
+	box-shadow: 0px 3px 20px rgb(11, 231, 11);
+	text-align: center;
+}
+
+.shopping-cart .block-heading {
+	padding-top: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.shopping-cart .block-heading p {
+	text-align: center;
+	max-width: 420px;
+	margin: auto;
+	opacity: 0.7;
+}
+
+.shopping-cart .dark .block-heading p {
+	opacity: 0.8;
+}
+
+.shopping-cart .block-heading h1,
+.shopping-cart .block-heading h2,
+.shopping-cart .block-heading h3 {
+	margin-bottom: 1.2rem;
+	color: #04560f;
+}
+
+.items {
+	margin: auto;
+}
+
+.items .product {
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.items .product .info {
+	padding-top: 0px;
+	text-align: center;
+}
+
+.items .product .info .product-name {
+	font-weight: 600;
+}
+
+.items .product .info .product-name .product-info {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.items .product .info .product-name .product-info .value {
+	font-weight: 400;
+}
+
+.items .product .info .quantity .quantity-input {
+	width: 80px;
+}
+
+.items .product .info .price {
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.shopping-cart .summary {
+	border-top: 2px solid #03f907;
+	border-bottom: 2px solid #03f907;
+	background-color: #d2ffc3;
+	height: 100%;
+	padding: 30px;
+	margin-top: 10px;
+	margin-right: 15px;
+	text-align: left;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.shopping-cart .summary h3 {
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 600;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.shopping-cart .summary .summary-item:not(:last-of-type) {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid green;
+}
+
+.shopping-cart .summary .text {
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.shopping-cart .summary .price {
+	font-size: 1em;
+	float: right;
+}
+
+.shopping-cart .summary button {
+	margin-top: 20px;
+	background-color: #000000;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.shopping-cart .summary button:hover {
+	background-color: #51f353;
+	border-color: #04560f;
+	color: black;
+}

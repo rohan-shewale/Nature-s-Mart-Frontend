@@ -1,0 +1,51 @@
+/*Product Add Css*/
+
+::placeholder {
+  font-size: larger;
+}
+
+.required_fields {
+  color: red;
+}
+
+#btn-submit {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#btn-submit:hover {
+  background-color: #43d06b;
+
+}
+
+.product-body-main {
+  border: 2px solid rgb(255, 252, 252);
+  box-shadow: 0px 3px 20px rgb(66, 196, 66);
+  padding: 50px;
+  /* Adjust the padding as needed */
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-bottom: 150px;
+}
+
+label {
+  color: #000000;
+  text-align: left;
+}
+
+.radio-change{
+  margin-left: -300px;
+}
+
+.radio-change1{
+  margin-left: 20px;
+}
+
+#isForRentradioLable{
+  margin-top: -30px;
+}

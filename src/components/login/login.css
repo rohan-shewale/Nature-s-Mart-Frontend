@@ -1,0 +1,65 @@
+/* Add border and shadow to the container */
+.form-label {
+    color: #333;
+    font-weight: bold;
+    font-size: 13pt;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-check-label {
+    margin-left: 5px;
+}
+
+/* Style the show password checkbox */
+.form-check-input:checked+.form-check-label {
+    color: #007bff;
+}
+
+/* Style the login button */
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Style the register link */
+.link-danger {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.link-danger:hover {
+    text-decoration: underline;
+}
+
+.body-register {
+    border: 2px solid rgb(255, 252, 252);
+    box-shadow: 0px 3px 20px rgb(66, 196, 66);
+    padding: 20px;
+    /* Adjust the padding as needed */
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    width: 80%;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#signin-img{
+    margin-top: 40px;
+}

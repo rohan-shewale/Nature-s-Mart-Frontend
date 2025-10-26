@@ -1,0 +1,37 @@
+h2 {
+    color: rgb(29, 225, 43);
+    padding: 10px 0;
+    /* Add some padding for better appearance */
+    margin: 0;
+    /* Reset default margin */
+}
+
+.zoom-effect {
+    borderRadius: 8;
+}
+
+.para {
+    text-align: left;
+    font-size: 20px;
+}
+
+#barely {
+    width: 300vw;
+}
+
+.zoom-effect {
+    display: inline-block;
+    /* Ensures the image size can be adjusted */
+    transform: scale(1.2);
+    /* Increase image size by 20% */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+    margin-top: 50px;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.3);
+    /* Increase size a bit more on hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    /* Add a shadow effect on hover */
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
+/*********************************
+2. Body and some general stuff
+*********************************/
+.nature {
+	color: rgb(35, 203, 35);
+}
+
+.logo {
+	font-weight: bolder;
+	font-size: 50px;
+	color: rgb(60, 78, 63);
+	margin-left: -80px;
+}
+
+.nav-item:hover {
+	border-bottom: 2px solid black;
+}

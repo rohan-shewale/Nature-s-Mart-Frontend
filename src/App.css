@@ -32,7 +32,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* register page css */
+.register-body label {
+  font-size: 14px;
+  text-align: left;
+  display: block;
+  color: #999696;
+  margin-bottom: 6px;
 }
